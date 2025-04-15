@@ -4,17 +4,17 @@ public class Advanced implements GameLevel {
 
 	@Override
 	public int getRowSize() {
-		return 120;
+		return 20;
 	}
 
 	@Override
 	public int getColSize() {
-		return 124;
+		return 24;
 	}
 
 	@Override
 	public int getLandMineCount() {
-		return 9;
+		return 99;
 	}
 
 }
