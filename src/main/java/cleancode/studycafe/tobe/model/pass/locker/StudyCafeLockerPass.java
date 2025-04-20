@@ -34,12 +34,12 @@ public class StudyCafeLockerPass implements StudyCafePass {
         return new StudyCafeLockerPass(passType, duration, price);
     }
 
-	public boolean isSamePassType(StudyCafePassType passType) {
-		return this.passType == passType;
-	}
+    public boolean isSamePassType(StudyCafePassType passType) {
+        return this.passType == passType;
+    }
 
-	public boolean isSameDurationType(int duration) {
-		return this.duration == duration;
-	}
+    public boolean isSameDurationType(int duration) {
+        return this.duration == duration;
+    }
 
 }
